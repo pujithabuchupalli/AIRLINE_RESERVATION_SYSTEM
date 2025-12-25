@@ -48,8 +48,7 @@ AirlineReservationSystem/
 ├─ README.md # Project documentation
 └─ lib/ # Optional libraries (JDBC driver)
 
-yaml
-Copy code
+
 
 ---
 
@@ -81,7 +80,7 @@ CREATE DATABASE airline_db;
 Update credentials in DatabaseHelper.java:
 
 java
-Copy code
+
 private static final String DB_USER = "root";
 private static final String DB_PASS = "your_password";
 Add MySQL JDBC Driver to your project library path.
@@ -89,7 +88,7 @@ Add MySQL JDBC Driver to your project library path.
 Compile and Run:
 
 bash
-Copy code
+
 javac -cp .;mysql-connector-java-8.0.33.jar AirlineReservationSystem.java
 java -cp .;mysql-connector-java-8.0.33.jar AirlineReservationSystem
 🎨 Technologies Used
